@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1 , shrink-to-fit=no"/>
+    <!-- Bootstrap CSS & js -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- style CSS-->
+    <link rel="stylesheet" href="assets/css/styleSheet.css">
+    <title>index</title>
+
+</head>
+<body>
+
+<div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <!-- intro -->
+
+        <div class="carousel-item active ">
+            <div class="container intro">
+
+                <div class="row">
+
+                    <div class="col-lg-2 part1"><h5 class="font">Urgent</h5>
+                        <h1 class="wordsmall">Hello <br> l am Patrick </h1>
+                        <div class="small small1">
+                        </div>
+
+                        <div class='label top-left'>
+                            <div class='content'>our company</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 part2">
+                        <h1 class="logo">
+                            DES<br>lGN
+                        </h1>
+                        <div class="small small2">
+                        </div>
+                        <div class='label top-left'>
+                            <div class='content'>our company specializes in the development</div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 part2">
+                        <p><i class="fa fa-google-plus"></i> welcome to our company</p>
+                        <div class=" small small3">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 part2">
+                        <h1 class="word">Hello <br> l am Patrick </h1>
+
+                    </div>
+                    <div class="col-lg-2 part2">
+                        <div class=" small small4">
+                        </div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="col-lg-2 lastpart">
+
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a class="menu-link active" href="#">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">contact</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">about</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">service</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- weather -->
+        <div class="carousel-item ">
+            <div class="container weather">
+                <ul class="side">
+                    <li class="side-item">
+                        <a class="side-link active" href="#">Home</a>
+                    </li>
+                    <li class="side-item">
+                        <a class="side-link ml-2" href="#">Weather</a>
+                    </li>
+
+                </ul>
+                <div class=" data">
+                    <h3>Just type the city name</h3>
+                    <p>you must spelling correctly</p>
+                    <section class="top-banner">
+
+                        <form class="form ">
+                            <input type="text " placeholder="Search for a city" autofocus class="p-1 mb-2 "
+                                   style="min-width: 500px">
+
+                            <div class="btn-group">
+                                <button class=" btn btn-primary " type="submit"
+                                        style="width: 200px ;margin-left: -4px ;margin-top: -3px" id="search">find
+                                </button>
+                            </div>
+                            <h6 class="msg"></h6>
+                        </form>
+                    </section>
+                    <section class="ajax-section">
+                        <div class="container">
+                            <ul class="cities"></ul>
+                        </div>
+                    </section>
+                    <br>
+                    <h1><span id="city"></span>, <span id="country"></span></h1>
+                    <br>
+                    <div class="circleWeather"></div>
+                    <br>
+                    <h6><span id="date"></span></h6>  <br>
+                    <h2 id="currentTemp"></h2>
+                    <p id="more"></p>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+    <script type="text/javascript" src="assets/js/jQuery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/styleScript.js"></script>
+</body>
+</html>
